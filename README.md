@@ -7,6 +7,6 @@
    * Windows: C:\Program Files\Ultimaker Cura 4.6\Resources  
    * Mac:     Right click on application, click show content.  
   
-2. Copy the contents of the folders from this repository into the corresponding folders on your installed Cura.  
+2. Copy the contents (not the folder itself, you still want to keep the original contents in the folders you already have) of the folders from this repository into the corresponding folders on your installed Cura.  
 
 3. Restart Cura, you should now be able to add Makertech printers.  
