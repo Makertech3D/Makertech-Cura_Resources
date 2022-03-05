@@ -9,4 +9,6 @@
   
 2. Copy the contents (not the folder itself, you still want to keep the original contents in the folders you already have) of the folders from this repository into the corresponding folders on your installed Cura.  
 
+![alt text](https://github.com/Makertech3D/Makertech-3D-Cura-Resources/blob/master/Copying%20Resources%20Screenshot.png?raw=true)
+
 3. Restart Cura, you should now be able to add Makertech printers.  
