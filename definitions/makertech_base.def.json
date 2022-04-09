@@ -20,7 +20,7 @@
         "has_machine_quality": true,
 
 		"variants_name": "Nozzle",
-        "preferred_variant_name": "0.3mm",
+        "preferred_variant_name": "0.4mm",
 		"preferred_material": "generic_pla",
         "preferred_quality_type": "normal"
 		
