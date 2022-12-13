@@ -10,7 +10,7 @@
 		"quality_definition": "makertech_base",
 
         "platform": "proforge3_platform.stl",
-        "platform_offset": [ 0, -30.8, 4]
+        "platform_offset": [ 0, -10.48, 4]
 
 		
     },

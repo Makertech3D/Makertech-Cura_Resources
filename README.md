@@ -1,13 +1,20 @@
 # Makertech-3D-Cura-Resources
- Makertech 3D printer profiles for Utimaker Cura V4.13.1
+ Makertech 3D printer profiles for Utimaker Cura V5.2.1
 
-# Install Instructions:  
+<br>
+
+# Install Instructions (Windows):  
 
 1. Locate the Cura resources folder on your computer:
-   * Windows: C:\Program Files\Ultimaker Cura 4.13.1\Resources  
-   * Mac:     Right click on application, click show content.  
+   * C:\Program Files\Ultimaker Cura 5.2.1\share\cura\resources
+
+(Note: It may be in Program Files (x86))
+
+<br>
   
-2. Copy the contents (not the folder itself, you still want to keep the original contents in the folders you already have) of the folders from this repository into the corresponding folders on your installed Cura.  
+2. Copy the contents of the folders in this repo to the corresponding folders on your installed Cura.  
+
+<br>
 
 ![alt text](https://github.com/Makertech3D/Makertech-3D-Cura-Resources/blob/master/Copying%20Resources%20Screenshot.png?raw=true)
 
