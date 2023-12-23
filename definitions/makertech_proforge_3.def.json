@@ -7,10 +7,7 @@
 		"author": "Makertech",
 		"visible": true,
         "file_formats": "text/x-gcode",
-		"quality_definition": "makertech_base",
-
-        "platform": "proforge3_platform.stl",
-        "platform_offset": [ 0, -10.48, 4]
+		"quality_definition": "makertech_base"
 
 		
     },

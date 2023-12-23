@@ -4,8 +4,7 @@
     "inherits": "fdmextruder",
     "metadata": {
         "machine": [ 
-			"makertech_base",
-			"makertech_proforge_3"
+            "makertech_base"
 			
 		],
         "position": "0"

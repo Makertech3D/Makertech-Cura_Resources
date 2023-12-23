@@ -6,11 +6,7 @@
 		"author": "Makertech",
 		"visible": true,
         "file_formats": "text/x-gcode",
-		"quality_definition": "makertech_base",
-		
-
-        "platform": "axis_platform.stl",
-        "platform_offset": [ -207, -84, 197]
+		"quality_definition": "makertech_base"
 		
 		
     },
