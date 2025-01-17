@@ -2,6 +2,8 @@
 
 Makertech 3D printer profiles for Utimaker Cura
 
+Tested with v5.9
+
 Download and install Cura from [here](https://github.com/Ultimaker/Cura/releases).
 
 Scroll down to _**Assets**_ to download.
