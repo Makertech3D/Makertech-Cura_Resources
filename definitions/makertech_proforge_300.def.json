@@ -27,38 +27,34 @@
         "machine_extruder_count": { "default_value": 3 },
 		
 
-
-
         "speed_print": { "value": 120 },
-        	"speed_infill": { "value": 120 },
+        	"speed_infill": { "value": 200 },
         	"speed_wall": { "value": 80 },
-        		"speed_wall_0": { "value": 70 },
-        		"speed_wall_x": { "value": 120 },
-        	"speed_roofing": { "value": 80 },
-        	"speed_topbottom": { "value": 80 },
-        "speed_support": { "value": 70 },
-        "speed_prime_tower": { "value": 70 },
-        "speed_travel": { "value": 200 },
+        		"speed_wall_0": { "value": 100 },
+        		"speed_wall_x": { "value": 150 },
+        	"speed_roofing": { "value": 110 },
+        	"speed_topbottom": { "value": 110 },
+        "speed_support": { "value": 45 },
+        "speed_prime_tower": { "value": 45 },
+        "speed_travel": { "value": 400 },
 
-        "speed_layer_0": { "value": 30 },
-        "speed_print_layer_0": { "value": 30 },
-        "speed_travel_layer_0": { "value": 100 },
+        "speed_layer_0": { "value": 50 },
+        "speed_print_layer_0": { "value": 50 },
+        "speed_travel_layer_0": { "value": 200 },
 
-        "skirt_brim_speed": { "value": 60 },
+        "skirt_brim_speed": { "value": 50 },
         "speed_slowdown_layers": { "value": 1 },
-
-
-
 
         "machine_max_acceleration_x": { "default_value": 60000 },
         "machine_max_acceleration_y": { "default_value": 60000 },
 		"acceleration_enabled": { "default_value": true },
-		"acceleration_print": { "value": 7000 },
-		"acceleration_wall": { "value": 7000 },
-		"acceleration_wall_0": { "value": 3500 },
-		"acceleration_wall_x": { "value": 7000 },
-		"acceleration_travel": { "value": 12000, "maximum_value_warning": "60000" },
-		"acceleration_layer_0": { "value": 4000 },
+		"acceleration_print": { "value": 8000 },
+		"acceleration_wall": { "value": 8000 },
+		"acceleration_wall_0": { "value": 6000 },
+		"acceleration_wall_x": { "value": 8000 },
+		"acceleration_infill": { "value": 14000 },
+		"acceleration_travel": { "value": 18000, "maximum_value_warning": "60000" },
+		"acceleration_layer_0": { "value": 6000 },
 		"acceleration_travel_layer_0": { "value": 6000 },
 		
 		
@@ -81,7 +77,7 @@
 		"prime_tower_brim_enable": { "default_value": true },
 
         "machine_start_gcode": {
-		            "default_value": ";----------ProForge 300 Start G-code----------\nG28 ;Home\n_TOOL_CHECK\nM190 S{material_bed_temperature_layer_0} ;wait for bed temp\nM109 S{material_print_temperature_layer_0} ;wait for hotend temp\nG28 Z\nBED_MESH_SCAN\nBED_MESH_PROFILE LOAD=default\nG28 Z\n; ----------ProForge 300 Start G-code----------"
+		            "default_value": ";----------ProForge 300 Start G-code----------\nG28 ;Home\n_TOOL_CHECK\nM190 S{material_bed_temperature_layer_0} ;wait for bed temp\nM109 S{material_print_temperature_layer_0} ;wait for hotend temp\nUPDATE_DELAYED_GCODE ID=FILTER_FAN_OFF DURATION=0\nSET_FAN_SPEED FAN=filter_fan SPEED=1\nG28 Z\nBED_MESH_SCAN\nG28 Z\n; ----------ProForge 300 Start G-code----------"
         },
         "machine_end_gcode": {
             "default_value": "_END_PRINT"
